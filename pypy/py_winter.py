@@ -51,6 +51,7 @@ def update_user():
             return False
         else:
             print("회원정보가 없습니다.")
+            break
 
 def check_user():
     if not users:
